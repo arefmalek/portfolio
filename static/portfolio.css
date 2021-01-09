@@ -1,7 +1,7 @@
 html, body {
     margin: 5px;
     padding: 0;
-    background: rgb(101, 146, 146);
+    background: #7cc6fe;
     font-family: sans-serif;
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, p {
 
 .project {
     margin: 1em;
-    background: #000000;
+    background: #8d5b4c;
     overflow: hidden;
     border-radius: 0.2em;
     border-style: solid;
@@ -65,16 +65,11 @@ h1, h2, h3, h4, p {
     transition: all 200ms ease;  
 }
 
-
 .project img {
     display: block;
     width: 100%;
     height: auto;
     box-sizing: content-box;
-}
-
-.project p {
-    border: 0.01em;
 }
 
 .project:hover {
