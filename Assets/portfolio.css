@@ -46,16 +46,20 @@ h1, h2, h3, h4, p {
 }
 
 .project-container {
-    display: grid;
+    /* display: grid;
     grid-gap: 50px 50px;
     grid-template-columns: auto auto auto;
-    justify-content: center;
+    justify-content: center; */
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1em;
 }
 
 .project {
     margin: 1em;
-    background: #8d5b4c;
+    background: #e27a5b;
     overflow: hidden;
     border-radius: 0.2em;
     border-style: solid;
@@ -63,6 +67,11 @@ h1, h2, h3, h4, p {
     border-color: #d6d6d6;
     box-shadow: 5px; 
     transition: all 200ms ease;  
+
+
+    width: 25em;
+    height: 25rem;
+    
 }
 
 .project img {
@@ -77,4 +86,8 @@ h1, h2, h3, h4, p {
     border-color: rgb(252, 0, 0);
     color:crimson;
     border-width: 0.1rem;
+}
+
+.project p {
+    margin: auto
 }
