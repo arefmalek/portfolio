@@ -59,7 +59,7 @@ h1, h2, h3, h4, p {
 
 .project {
     margin: 1em;
-    background: #e27a5b;
+    background: #7A8450;
     overflow: hidden;
     border-radius: 0.2em;
     border-style: solid;
@@ -83,8 +83,8 @@ h1, h2, h3, h4, p {
 
 .project:hover {
     transform: scale(1.15);
+    background: #e27a5b; 
     border-color: rgb(252, 0, 0);
-    color:crimson;
     border-width: 0.1rem;
 }
 
